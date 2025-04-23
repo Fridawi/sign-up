@@ -238,6 +238,10 @@ h1 {
     max-width: 754px;
     position: relative;
   }
+  body > div > main > section.image > img:nth-child(1) {
+    position: relative;
+    z-index: 1;
+  }
 
   body > div > main > section.image > img:nth-child(2) {
     position: absolute;
