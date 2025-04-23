@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="Css/normalize.css" />
+    <!-- Main Css -->
+    <link rel="stylesheet" href="Css/master.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="Images/logo.png" alt="Logo" />
+        </div>
+        <svg
+          class="toggle-menu"
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M27.6666 9.33333C27.6666 9.59855 27.5612 9.8529 27.3737 10.0404C27.1862 10.228 26.9318 10.3333 26.6666 10.3333H5.33325C5.06804 10.3333 4.81368 10.228 4.62615 10.0404C4.43861 9.8529 4.33325 9.59855 4.33325 9.33333C4.33325 9.06812 4.43861 8.81376 4.62615 8.62623C4.81368 8.43869 5.06804 8.33333 5.33325 8.33333H26.6666C26.9318 8.33333 27.1862 8.43869 27.3737 8.62623C27.5612 8.81376 27.6666 9.06812 27.6666 9.33333ZM27.6666 16C27.6666 16.2652 27.5612 16.5196 27.3737 16.7071C27.1862 16.8946 26.9318 17 26.6666 17H5.33325C5.06804 17 4.81368 16.8946 4.62615 16.7071C4.43861 16.5196 4.33325 16.2652 4.33325 16C4.33325 15.7348 4.43861 15.4804 4.62615 15.2929C4.81368 15.1054 5.06804 15 5.33325 15H26.6666C26.9318 15 27.1862 15.1054 27.3737 15.2929C27.5612 15.4804 27.6666 15.7348 27.6666 16ZM27.6666 22.6667C27.6666 22.9319 27.5612 23.1862 27.3737 23.3738C27.1862 23.5613 26.9318 23.6667 26.6666 23.6667H5.33325C5.06804 23.6667 4.81368 23.5613 4.62615 23.3738C4.43861 23.1862 4.33325 22.9319 4.33325 22.6667C4.33325 22.4014 4.43861 22.1471 4.62615 21.9596C4.81368 21.772 5.06804 21.6667 5.33325 21.6667H26.6666C26.9318 21.6667 27.1862 21.772 27.3737 21.9596C27.5612 22.1471 27.6666 22.4014 27.6666 22.6667Z"
+            fill="black"
+          />
+        </svg>
+
+        <ul>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+
+      <main class="main-content">
+        <section class="text">
+          <h1>Sign up</h1>
+          <p class="subtitle">
+            Welcome! Protect tropical birds &amp; nature, Join us now to make a
+            difference.
+          </p>
+
+          <form class="signup-form">
+            <div class="form-group">
+              <input
+                type="email"
+                value="mstr.sdw@gmail.com"
+                placeholder="Email"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <input type="password" placeholder="Password" required />
+            </div>
+
+            <div class="form-group">
+              <input type="password" placeholder="Retype Password" required />
+            </div>
+
+            <div class="checkbox-group">
+              <input class="check-box" type="checkbox" id="terms" required />
+
+              <label for="terms"
+                >I agree to the <span class="terms-link">terms</span> of the
+                site policy.</label
+              >
+            </div>
+            <button type="submit" class="submit-button">Create account</button>
+          </form>
+        </section>
+        <section class="image">
+          <img src="Images/BirdImage.png" alt="Bird Image" />
+          <img src="Images/branch.png" alt="branch Image" />
+      </main>
+    </div>
+  </body>
+</html>
