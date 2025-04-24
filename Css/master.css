@@ -143,6 +143,11 @@ h1 {
   .image {
     display: none;
   }
+
+  img {
+    margin-left: -10px;
+  }
+
   .navbar {
     position: relative;
     max-width: 400px;
@@ -187,6 +192,11 @@ h1 {
   .image {
     display: none;
   }
+
+  img {
+    margin-left: -10px;
+  }
+
   .main-content {
     max-width: 600px;
     margin: 0 auto;
